@@ -26,7 +26,8 @@ Let's see some sample code for rendering an article in a news app:
              {[HeaderComponent newWithArticle:article]},
              {[MessageComponent newWithMessage:article.message]},
              {[FooterComponent newWithFooter:article.footer]},
-           }];
+           }]
+          ];
 }
 
 @end
